@@ -21,7 +21,7 @@ namespace GAMEE
             //Stringovi
             string pol;
             string klasa;
-            string ime;
+            
 
             // Kreacija pola
             do
@@ -67,7 +67,37 @@ namespace GAMEE
                 { }
             } while (correct == 0);
             correct = 0;
-           //
+            //Skillovi karaktera 1-10
+            switch (klasa)
+            {
+                case "TRGOVAC":
+                    oneHandedAttack =1.5;
+                    twoHandedAttack = 2.30;
+                    communicationSkills = 8.65;
+                    stealth = 5.6;
+
+
+                    break;
+                case "LOPOV":
+                    oneHandedAttack = 6.3;
+                    twoHandedAttack = 7.32;
+                    communicationSkills = 8.65;
+                    stealth = 8;
+                    break;
+                case "RATNIK":
+                    oneHandedAttack = 6.8;
+                    twoHandedAttack = 8.65;
+                    communicationSkills = 4.32;
+                    stealth = 7.8;
+                    break;
+
+
+
+            }
+
+            // Unošenje imena karaktera
+            string ime;
+            ime = Console.ReadLine();
             
 
             }
