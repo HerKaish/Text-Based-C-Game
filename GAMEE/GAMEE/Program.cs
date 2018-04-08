@@ -10,6 +10,10 @@ namespace GAMEE
     {
         static void Main(string[] args)
         {
+            //Doublei
+            double oneHandedAttack;
+            double twoHandedAttack;
+            double communicationSkills;
             //Intriger Based variable
             int correct = 0;
 
