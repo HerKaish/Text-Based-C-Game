@@ -26,15 +26,12 @@ namespace GAMEE
                 pol = Console.ReadLine().ToUpper();
 
                 // Muški pol
-                if (pol == "MUSKO")
+                if (pol == "MUSKO" || pol =="MUŠKO")
                 {
                     correct = 1;
-
-
-
                 }
                 //ženski pol
-                else if (pol == "ZENSKO")
+                else if (pol == "ZENSKO" ||pol =="ŽENSKO")
                 {
 
                     correct = 1;
@@ -43,11 +40,8 @@ namespace GAMEE
                 else
                 { }
             } while (correct == 0);
-
-
-
-
             correct = 0;
+            // Kreacija klase
 
         }
     }
