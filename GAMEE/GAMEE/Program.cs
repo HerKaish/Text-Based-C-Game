@@ -10,6 +10,45 @@ namespace GAMEE
     {
         static void Main(string[] args)
         {
+            //Intriger Based variable
+            int correct = 0;
+
+            //Stringovi
+            string pol;
+            string klasa;
+            string ime;
+
+            // Kreacija pola
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Unesite koji pol hocete biti: \n Muško \n Žensko");
+                pol = Console.ReadLine().ToUpper();
+
+                // Muški pol
+                if (pol == "MUSKO")
+                {
+                    correct = 1;
+
+
+
+                }
+                //ženski pol
+                else if (pol == "ZENSKO")
+                {
+
+                    correct = 1;
+
+                }
+                else
+                { }
+            } while (correct == 0);
+
+
+
+
+            correct = 0;
+
         }
     }
 }
