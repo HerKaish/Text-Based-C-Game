@@ -67,29 +67,9 @@ namespace GAMEE
                 { }
             } while (correct == 0);
             correct = 0;
-
-            if (klasa =="TRGOVAC")
-            {
-                oneHandedAttack = 0.75;
-                twoHandedAttack = 1.32;
-                communicationSkills = 1.65;
-
-            }
-            else if (klasa=="RATNIK")
-            {
-                oneHandedAttack = 1.65;
-                twoHandedAttack = 1.98;
-                communicationSkills = 0.65;
-
-            }
-            else if (klasa=="LOPOV")
-            {
-                oneHandedAttack = 1.20;
-                twoHandedAttack = 1.58;
-                communicationSkills = 1.54;
-                stealth = 1.79;
+           
+            
 
             }
         }
     }
-}
