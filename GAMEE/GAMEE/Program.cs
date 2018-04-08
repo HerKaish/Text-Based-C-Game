@@ -22,7 +22,7 @@ namespace GAMEE
             do
             {
                 Console.Clear();
-                Console.WriteLine("Unesite koji pol hocete biti: \n Muško \n Žensko");
+                Console.WriteLine("Klasu vašeg lika: \n Muško \n Žensko");
                 pol = Console.ReadLine().ToUpper();
 
                 // Muški pol
@@ -42,6 +42,23 @@ namespace GAMEE
             } while (correct == 0);
             correct = 0;
             // Kreacija klase
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("Klasu vašeg lika: \n Trgovac \n Ratnik \n Lopov");
+                klasa = Console.ReadLine().ToUpper();
+
+                // Muški pol
+                if (klasa == "TRGOVAC" || klasa == "LOPOV" || klasa == "RATNIK")
+                {
+                    correct = 1;
+                }
+                //ženski pol
+               
+                else
+                { }
+            } while (correct == 0);
+            correct = 0;
 
         }
     }
